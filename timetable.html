@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Timetable</title>
+</head>
+<body>
+
+<h2>School Timetable</h2>
+
+<table border="1" cellspacing="0" cellpadding="5">
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr>
+
+    <tr>
+        <td>9:00 - 10:00</td>
+        <td rowspan="2">Math</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Math</td>
+        <td>Biology</td>
+        <td>Sports</td>
+    </tr>
+
+    <tr>
+        <td>10:00 - 11:00</td>
+        <!-- Monday cell continues with rowspan -->
+        <td>History</td>
+        <td>Chemistry</td>
+        <td>Geography</td>
+        <td>English</td>
+        <td>Art</td>
+    </tr>
+
+    <tr>
+        <td>11:00 - 11:30</td>
+        <td colspan="6">Break</td>
+    </tr>
+
+    <tr>
+        <td>11:30 - 12:30</td>
+        <td>Science</td>
+        <td>Math</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+        <td>Computer Lab</td>
+    </tr>
+
+    <tr>
+        <td>12:30 - 1:30</td>
+        <td colspan="6">Lunch</td>
+    </tr>
+
+    <tr>
+        <td>1:30 - 2:30</td>
+        <td>History</td>
+        <td rowspan="2">Computer Lab</td>
+        <td>Biology</td>
+        <td>Math</td>
+        <td>Physics</td>
+        <td>Library</td>
+    </tr>
+
+    <tr>
+        <td>2:30 - 3:30</td>
+        <td>English</td>
+        <!-- Tuesday rowspan continues -->
+        <td>History</td>
+        <td>Chemistry</td>
+        <td>Sports</td>
+        <td>Club Activity</td>
+    </tr>
+</table>
+
+</body>
+</html>
